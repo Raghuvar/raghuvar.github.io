@@ -453,8 +453,8 @@ table {
 }
 /* ==========================================================================Hero========================================================================== */
 .hero {
-	background: url('../img/raghu.jpg') right bottom no-repeat;
-	background-size: contain;
+	background: url('../img/raghu.jpg') no-repeat center center fixed;
+	background-size: cover;
 	padding:110px 0 100px 0;
 	height:auto;
 	background-color: #FBFBFB;

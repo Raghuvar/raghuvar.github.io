@@ -460,12 +460,13 @@ table {
 	background-color: #FBFBFB;
 }
 .hero h1 {
-	font-size: 120px;
+	font-size: 60px;
 	letter-spacing: -8px;
 	margin: 0;
 	font-weight: 600;
 	line-height: 95px;
 	text-transform: uppercase;
+	text-align: left;
 }
 .hero h1 span {
 	color:#a1a9b0;

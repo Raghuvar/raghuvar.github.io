@@ -460,27 +460,27 @@ table {
 	background-color: #FBFBFB;
 }
 .hero h1 {
-	font-size: 60px;
-	letter-spacing: -8px;
-	margin: 0;
+	font-size: 50px;
+	letter-spacing: -5px;
+	margin-top: 2cm;
 	font-weight: 600;
 	line-height: 95px;
 	text-transform: uppercase;
-	text-align: left;
+	text-align: center;
 }
 .hero h1 span {
-	color:#a1a9b0;
+	color:#f71e0e;
 	/* display:inline-block; */
 }
 .hero h3 {
-	font-size: 20px;
-	margin:0;
-	padding:0;
-	opacity:0.5;
-	color: #E04343;
-	letter-spacing: 18px;
-	line-height: 50px;
+	font-size: 30px;
+	opacity:1;
+	color: #2b03c1;
+	letter-spacing: 1px;
 	text-transform: uppercase;
+	font-weight: bold;
+	text-align: center;
+	margin-top: -1.4cm;
 }
 .hero p {
 	letter-spacing:1px;
@@ -560,7 +560,7 @@ table {
 	margin:50px 0 0;
 }
 h1.arrow {
-	font-size: 16px;
+	font-size: 25px;
 	text-transform:uppercase;
 	color:#353535;
 	letter-spacing: 4px;
@@ -573,7 +573,8 @@ h1.arrow span {
 }
 /* ==========================================================================About========================================================================== */
 .about-image {
-	height:400px;
+	height:490px;
+	width: 680px;
 	-webkit-background-size:cover;
 	-moz-background-size:cover;
 	-o-background-size:cover;
@@ -586,8 +587,12 @@ h1.arrow span {
 .color-bg a {
     color: #FFE800;
 }
-.color-bg h6, .color-bg p {
+.color-bg h6{
     color: white;
+	} 
+.color-bg p {
+    color: #030811;
+    font-size: 20px;
 }
 .color-bg h6::after{
 	border-color: #fff;
@@ -871,17 +876,17 @@ img.grayscale:hover {
 }
 /* ==========================================================================CTA========================================================================== */
 .spacer-cta {
-	background-color: #E04343;
 	padding:70px 0;
 }
 .outline-btn {
 	display:inline-block;
 	padding:25px 40px;
-	color: #FFE801;
-	border: solid 1px #FFE801;
+	color: #f71e0e;
+	border: solid 3px #2b03c1;
 	text-transform:uppercase;
 	font-weight:bold;
 	letter-spacing:1px;
+	font-size: 25px;
 }
 .outline-btn:hover,.outline-btn:focus {
 	color: #E04343;
@@ -898,8 +903,8 @@ img.grayscale:hover {
 	letter-spacing:1px;
 }
 .weight-outline-btn:hover,.outline-btn:focus {
-	color:#424242;
-	border: solid 1px #424242;
+	color:#0f9686;
+	border: solid 1px #0f9686;
 }
 /* ==========================================================================Team========================================================================== */
 .team img {
@@ -918,12 +923,12 @@ ul.social-buttons li:last-child {
 	margin-right:0;
 }
 .social-btn {
-	width:40px;
-	height:40px;
+	width:50px;
+	height:45px;
 	background: #E04343;
 	display:inline-block;
 	color:#fff;
-	font-size:17px;
+	font-size:25px;
 	line-height:40px;
 	text-align:center;
 }
